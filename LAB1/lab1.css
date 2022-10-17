@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Poller+One&family=Roboto+Mono:wght@500&family=Supermercado+One&display=swap');
+
+
+
+#vader {
+    display: table;
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+}
+
+.container {
+
+    border: black 5px;
+    background: silver;
+
+
+
+}
+
+#header {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-area: hd;
+    text-align: center;
+
+}
+
+#obi {
+    display: none;
+}
+
+.vader {
+    display: grid;
+    background: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+
+body {
+    background-color: crimson;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 5;
+    gap: 15px;
+
+}
+
+#name {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    grid-area: nm;
+}
+
+.container {
+    border: solid black 5px;
+}
+
+
+/* accomplish */
+
+h2 {
+    background-image: linear-gradient(to right, lightblue, crimson);
+    width: 100%;
+    border: red;
+}
+
+
+
+
+/* VADER^^^^^^^^^^^^^^^^^^
+///////////////////////////////
+////////////////////////////
+//////////////////////////
+
+kenobi*VVVVVVVVVVVVVVVVVVVVV
+/*font-family: 'Supermercado One', cursive;
+*/
+@media screen and (min-width : 800px) {
+    body {
+        background-color: lightskyblue;
+    }
+
+    .container {
+        border: burlywood solid 5px;
+        background: beige;
+        text-align: inherit;
+
+        display: grid
+    }
+
+    #obi {
+        display: table;
+        grid-area: obi;
+    }
+
+    #vader {
+        display: none;
+    }
+
+    #header {
+        grid-area: hd;
+        border: burlywood solid 5px;
+        background: beige;
+        font-family: 'Poller One', cursive;
+        font-size: large;
+        color: brown;
+        display: grid;
+
+    }
+
+
+
+
+    #name {
+        grid-area: nm;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: x-large;
+        color: brown;
+
+    }
+
+    #favorite {
+        grid-area: fav;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: brown;
+
+
+    }
+
+    #city {
+        grid-area: cc;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: brown;
+    }
+
+    #school {
+        grid-area: sc;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: brown;
+
+    }
+
+    #grid {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: minmax(100px, auto);
+        grid-template-areas:
+
+            "obi hd hd hd hd hd hd hd hd"
+            "nm nm nm nm nm nm nm nm nm"
+
+            "sc sc sc cc cc cc cc cc cc"
+            "fav fav fav fav fav fav fav fav fav";
+
+
+
+        border: 2px;
+        gap: 15px;
+    }
+
+
+    /***
+    //
+    /
+    /   ACCOMPLISHMENTS
+    */
+
+    #header{
+        grid-column: 1/2;
+        grid-row: 1;
+        width: 100%;
+        height: max-content;
+    }
+    #titlegrid {
+        display: grid;
+        width: 100%;
+        border: burlywood solid 5px;
+        border-style: groove;
+        text-align: center;
+        gap: 15px;
+
+        background: beige;
+        font-family: 'Poller One', cursive;
+        font-size: large;
+        color: brown;
+
+    }
+
+    #bodygrid {
+        display: grid;
+        width: 100%;
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        gap: 15px;
+    }
+
+    .draw {
+
+        background-image: linear-gradient(to right, lightblue, blueviolet);
+        color: darkblue;
+        gap: 15px
+    }
+
+    #art {
+        grid-column: 1/3;
+        background-image: linear-gradient(to right, lightblue, crimson);
+        width: fit-content;
+    }
+
+    #lotr {
+
+        grid-column-start: 3;
+        height: 225px;
+    }
+
+    #hobbies {
+
+        background-image: linear-gradient(to right, blueviolet, lightblue);
+        color: darkblue;
+    }
+
+    #hobbylist {
+        display: grid;
+        grid-column: 3/5;
+        background-image: linear-gradient(to right, crimson, lightblue);
+        height: fit-content;
+
+
+    }
+
+    /*
+
+    EMPLOYMENT
+
+    
+    */
+
+    .employ {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    #empgrid {
+        display: grid;
+
+    }
+
+    #job {
+        text-align: center;
+    }
+
+    #sts {
+
+
+        background-image: linear-gradient(lightblue, crimson);
+        width: fit-content;
+
+
+
+
+
+
+    }
+
+    #long {
+        text-align: center;
+        grid-column-start: 3;
+
+    }
+
+    #replist {
+        background-image: linear-gradient(lightblue, blueviolet);
+        grid-row-start: 2;
+        grid-column-start: 3;
+        align-content: center;
+
+
+    }
+
+
+
+
+
+
+}
